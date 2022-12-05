@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  header{
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(160, 98, 17);
+    position: inherit;
+    margin-left: 580px;
+  }
+  body {
+    block-size: 50px 50px;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    padding: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgb(246, 155, 19);
+    width: 50%;
+    margin: 260px;
+    margin-left: 390px;
+    margin-top: 50px;
+    min-height: 100vh;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .button{
+    padding: 10px;
+    border: 1px solid rgba(187, 7, 94, 0.923);
+    font: 100 1.1rem sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+  }
+  input,
+  textarea,
+  button {
+    margin: 10px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.923);
+    font: 100 1.1rem sans-serif;
+    outline: rgb(0, 0, 0); 
+  }
+  .task {
+    background-color: rgba(218, 221, 176, 0.937);
+    font: 100 1.1rem sans-serif;
+    padding: 3px;
+    height:73px;
+    margin-top: 2px;
+    margin: 1vmax;
+    color: rgba(0, 0, 0, 0.868);
+    display: flex;
+    align-items: center;
+  }
+  .task > div {
+    width: 100%;
+  }
+  marquee{
+    color: rgb(71, 39, 4);
+    font-size: 45px;
+    }
+  .task span {
+    color: rgba(0, 0, 0, 0.632);
+  }
+  button {
+      background-color: rgba(11, 11, 11, 0.714);
+      color: rgb(222, 183, 154);
+      cursor: pointer;
+      width: 80px;
+      border-radius: 5px;
+  }
+  button:hover {
+      background-color: rgb(162, 5, 5);
+  }
+  .deleteBtn {
+    width: 30px;
+    height: 30px;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 30, 11, 0.918);
+  }
